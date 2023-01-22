@@ -1,0 +1,22 @@
+@mixin flex($jc: center, $ai: center, $fd: row) {
+    display: flex;
+    justify-content: $jc;
+    align-items: $ai;
+    flex-direction: $fd;
+}
+
+@mixin padding($top: auto, $right: auto, $bottom: auto, $left: auto) {
+    padding: $top $right $bottom $left;
+}
+
+@mixin margin($top: auto, $right: auto, $bottom: auto, $left: auto) {
+    margin: $top $right $bottom $left;
+}
+
+@mixin border($bw: 1px, $bt: solid, $bc: #ccc) {
+    border: $bw $bt $bc;
+}
+
+@mixin border-radius($br) {
+    border-radius: $br;
+}
